@@ -8,7 +8,7 @@ add macos support.
 
 ``` yaml
 dependencies:
-    disk_space:
+    disk_space_new:
         git:
             url: git://github.com/AbdallahZidano/disk_space_new.git
 ```
