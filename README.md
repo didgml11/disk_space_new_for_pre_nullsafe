@@ -1,4 +1,4 @@
-# disk_space_new
+# disk_space
 
 fork version of [https://pub.dev/packages/disk_space](https://pub.dev/packages/disk_space)  
 
@@ -8,9 +8,9 @@ add macos support.
 
 ``` yaml
 dependencies:
-    disk_space_new:
+    disk_space:
         git:
-            url: git://github.com/AbdallahZidano/disk_space_new.git
+            url: git://github.com/AbdallahZidano/disk_space.git
 ```
 
 ## Getting Started
