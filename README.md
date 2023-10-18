@@ -1,6 +1,6 @@
 # disk_space
 
-fork version of [https://pub.dev/packages/disk_space](https://pub.dev/packages/disk_space)  
+fork version of https://github.com/AbdallahZidano/disk_space_new which fork  [https://pub.dev/packages/disk_space](https://pub.dev/packages/disk_space)  
 
 add macos support.  
 
