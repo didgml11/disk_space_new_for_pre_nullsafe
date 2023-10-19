@@ -8,7 +8,7 @@ import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
 import io.flutter.plugin.common.PluginRegistry.Registrar
 
-class DiskSpacePlugin: MethodCallHandler {
+class DiskSpacePlugin: MethodCallHandler, FlutterPlugin {
   companion object {
     @JvmStatic
     fun registerWith(registrar: Registrar) {
@@ -17,6 +17,16 @@ class DiskSpacePlugin: MethodCallHandler {
     }
   }
 
+   @Override
+  public void onAttachedToEngine(@NonNull FlutterPluginBinding binding) {
+    // TODO: your plugin is now attached to a Flutter experience.
+  }
+
+  @Override
+  public void onDetachedFromEngine(@NonNull FlutterPluginBinding binding) {
+    // TODO: your plugin is no longer attached to a Flutter experience.
+  }
+  
   private fun getFreeDiskSpaceInBytes():Long {
     val stat = StatFs(Environment.getExternalStorageDirectory().path)
 
